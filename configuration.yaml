@@ -1,194 +1,107 @@
+name: "Mykyta S."
+position: "Full-Stack Web Developer"
+photo: "me.jpg"
+
 contacts:
-  name: John Doe
-  title: Software Engineer
-  email: johndoe@example.com
-  address: "City, Country"
-  location: Country
-  linkedin:
-    url: https://www.linkedin.com/in/johndoe/
-    displayText: johndoe
-  github:
-    url: https://github.com/johndoe/
-    displayText: "@johndoe"
-  website:
-    url: https://johndoe.com
-    displayText: www.johndoe.com
+  location:
+    name: "location"
+    title: "Gdańsk, Poland"
+    link: "geo:54.4290151,18.5850776"
 
-position: Software Engineer
+tagline: Results-driven Full-Stack Web Developer with 5 years building high-performance, scalable applications using or based on the PHP, JavaScript, Node.js and SQL technologies. Led optimizations that boosted page load speeds by 30-40% and retention via SOLID/DRY principles and MVC architecture. Eager to innovate in collaborative teams, delivering efficient solutions for your projects.
 
-tagline: Software engineer with 5 years of experience and a strong foundation in computer science, skilled in developing software for innovative industries. Proficient in JavaScript/TypeScript, Python, and C/C++, with a solid understanding of system architecture and design principles.
-
-jobs:
-  - position: Lead Software Developer
+work_experiences:
+  - position: Full-Stack Web Developer
     company:
-      name: Quantum Innovations
-      link: https://quantuminnovations.com/
-    product:
-      name: QuantumLeap
-      link: https://quantumleap.com
-    description:
-      - Spearheaded the development of a cutting-edge quantum computing simulator, optimizing algorithms for performance.
-      - Collaborated with a team to create intuitive user interfaces that simplified complex scientific data for end-users.
-    from: "2023 Mar."
-    to: "2024 Jul."
-    tags:
-      - Quantum Computing
-      - Algorithm Optimization
-      - UI Design
+      name: SDA Company
+    description: 
+        - Refactored and enhanced scalable modular backend systems, built with DDD approach by using PHP, Laravel and Laravel Blade, integrating PHPUnit for robust unit testing to ensure code reliability in compliance with HIPAA and ISO/IEC Standards and applying OOP, SOLID, DRY, and KISS principles to streamline our workflow, speed up development and enhance security for sensitive data handling. Also used Stripe and NMI payment processing API.
+        - Enhanced frontend side with TypeScript (Angular), JavaScript, jQuery, Bootstrap, and SCSS via Laravel Mix, delivering modular user interfaces that improved application responsiveness.
+        - Optimized database performance with MySQL and Memcached, while deploying infrastructure on Amazon Web Services (AWS) and Docker containers, reducing deployment times through BitBucket Pipelines, Git Flow technique and Bash Scripts on Linux-based environment.
+    from: "2025-01"
+    to: "2025-09"
     location: Remote
   - position: Backend Developer
     company:
-      name: CloudSync Solutions
-      link: https://cloudsyncsolutions.com/
-    product:
-      name: SyncManager
-      link: https://syncmanager.com
+      name: Preventa
     description:
-      - Built scalable backend services for SyncManager, ensuring high availability and performance for cloud synchronization.
-      - Designed and implemented RESTful APIs to facilitate data exchange between clients and servers.
-    from: "2024 Aug."
-    to: "present"
-    tags:
-      - API Development
-      - Cloud Computing
-      - Microservices
+      - Extended core functionality using microservices architecture, PHP and TypeScript with Node.js, and designing RESTful APIs to enable seamless data exchange between Laravel backend and React frontend, adhering to ICD-11 and ISO Standards for medical compliance.
+      - Refactored codebase integrations to resolve backend performance flaws, using Memcached for caching, resulting in 30-40% faster response times than before.
+      - Implemented API queries with caching and mockup testing for partnership integrations.
+    from: "2024-09"
+    to: "2025-01"
     location: Remote
-  - position: DevOps Engineer
+  - position: Full-Stack Web Developer
     company:
-      name: AutoTech Dynamics
-      link: https://autotechdynamics.com/
-    product:
-      name: AutoPilot
-      link: https://autopilot.com
+      name: Under NDA
     description:
-      - Streamlined CI/CD pipelines for the AutoPilot system, enhancing deployment frequency and reliability.
-      - Monitored system performance and implemented improvements for optimized infrastructure.
-    from: "2022 Feb."
-    to: "2023 Dec."
-    tags:
-      - DevOps
-      - CI/CD
-      - Infrastructure Management
-    location: Denver, USA
-  - position: Game Developer
+      - Led optimization of a high-traffic PHP application handling 10+ million media files with ~1.5k online users.
+      - Reduced load times on some pages by 50% through reworked MVC architecture and implementing advanced OOP techniques.
+      - Developed scalable features utilizing SOLID, DRY, KISS principles, using JavaScript, jQuery, Bootstrap for frontend, and PHP, MySQL+Percona and Memcached for backend, while automating media processing via CRON, FFMPEG, and CDN for efficient high-load operations.
+    from: "2022-11"
+    to: "2024-09"
+    location: Remote
+  - position: Full-Stack Web Developer
     company:
-      name: PixelForge Studios
-      link: "https://pixelforgestudios.com/"
-    product:
-      name: Realm of Adventure
-      link: https://realmofadventure.com
+      name: Webstick
     description:
-      - Developed engaging gameplay mechanics and interactive environments using Unity and C#.
-      - Collaborated with artists to ensure visual consistency and high-quality game experiences.
-    from: "2021 Jan."
-    to: "2022 Dec."
-    tags:
-      - Game Development
-      - Unity
-      - C#
-    location: Los Angeles, USA
-  - position: Data Engineer
-    company:
-      name: Insight Analytics
-      link: "https://insightanalytics.com/"
-    product:
-      name: DataVision
-      link: https://datavision.com
-    description:
-      - Engineered data pipelines to aggregate and process large datasets for analytics using Python and Apache Spark.
-      - Developed dashboards for real-time data visualization and business intelligence.
-    from: "2020 Jan."
-    to: "2021 Dec."
-    tags:
-      - Data Engineering
-      - Python
-      - Data Visualization
-    location: Chicago, USA
-  - position: Quality Assurance Intern
-    company:
-      name: CodeFix Labs
-      link: "https://codefixlabs.com/"
-    product:
-      name: TestSuite Pro
-      link: https://testsuitepro.com
-    description:
-      - Assisted in testing software applications for functionality and usability, reporting bugs and feedback.
-      - Gained experience in automated testing frameworks to improve product quality.
-    from: "2019 Jan."
-    to: "2019 Dec."
-    tags:
-      - Quality Assurance
-      - Testing
-      - Automation
-    location: Austin, USA
-
-objective: Seeking to advance my skills and build a strong career with a company that values innovation and creativity.
+      - Played a key role in developing and deploying multiple high-quality web applications, resulting in increase in client satisfaction scores
+      - Leveraged Laravel and Yii2 frameworks to build robust backend systems, improving system reliability
+      - Implemented modern JavaScript practices with Vue, enhancing the user interface and experience
+      - Managed version control through Git and Subversion (SVN), leading improvement in codebase consistency and project collaboration
+      - Streamlined the development process by using Open Server, reducing testing time and improving overall development efficiency
+    from: "2020-08"
+    to: "2022-11"
+    location: Kryvyi Rih, Ukraine
 
 education:
-  - place:
-      name: Example University
-      link: "http://exampleuniversity.edu"
-    degree: "B.Sc."
-    major: Computer Science
-    track: Computer Science
-    from: "2015"
-    to: "2019"
-    location: City, Country
-  - place:
-      name: Technical College
-      link: ""
-    degree: Diploma
-    major: IT Specialist
-    track: IT Specialist
-    from: "2012"
-    to: "2015"
-    location: City, Country
-
-technical_expertise:
-  - name: Kotlin
-    level: 4
-  - name: Angular
-    level: 5
-  - name: Ruby on Rails
-    level: 5
-  - name: Flutter
-    level: 4
-  - name: Go
-    level: 4
-  - name: Subversion
-    level: 5
+  - institution: " State University of Economics and Technology"
+    location: "Kryvyi Rih, Ukraine"
+    degree: "Master of Science (M.Sc.)"
+    field_of_study: "Software Engineering"
+    start_date: "2020"
+    end_date: "2021"
+  - institution: "Kryvyi Rih Economical Institute based on Kyiv National Economic University of Vadym Hetman"
+    location: "Kryvyi Rih, Ukraine"
+    degree: "Bachelor of Science (B.Sc.)"
+    field_of_study: "Software Engineering"
+    start_date: "2016"
+    end_date: "2020"
 
 skills:
+  - PHP
   - JavaScript
-  - Python
-  - Java
-  - React
+  - TypeScript
+  - MySQL
   - Node.js
-  - Express
-  - MongoDB
-  - AWS
+  - Laravel
+  - Yii
+  - Angular
+  - Vue.js
+  - React
+  - Percona
+  - Amazon Web Services (AWS)
   - Docker
   - Git
+  - Subversion (SVN)
+  - CMake
   - HTML/CSS
-  - SQL
-  - Material UI
-  - Tailwind CSS
+  - SASS
+  - SCSS
+  - Bootstrap
+  - jQuery
+  - Jenkins
+  - GitHub Actions
+  - BitBucket Pipelines
+  - BugSnag
+  - PHPUnit
+  - Python
+  - WordPress
+  - Java
+  - OpenAI API
+  - Stripe
+  - Image-gen AI models (Stable Diffusion, Flux.1)
 
-methodology:
-  - Lean
-  - Kanban
-  - Design Thinking
-  - Test-Driven Development
-  - Pair Programming
-
-tools:
-  - GitHub
-  - IntelliJ IDEA
-  - Asana
-  - Slack
-  - Adobe XD
-  - Postman
-
-achievements:
-  - name: "Best Project Award"
-    description: Developed an innovative solution for community service management and received recognition from the university.
+certifications:
+  - name: "ESOL International (Communicator B2)"
+    description: Listening, Reading, Writing

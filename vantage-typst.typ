@@ -10,19 +10,10 @@
   h(3pt)
 }
 
-#let findMe(services) = {
+#let findMe(contacts) = {
   set text(8pt)
   let icon = icon.with(shift: 2.5pt)
 
-  services.map(service => {
-      icon(service.name)
-
-      if "display" in service.keys() {
-        link(service.link)[#{service.display}]
-      } else {
-        link(service.link)
-      }
-    }).join(h(10pt))
   [
     
   ]
@@ -59,8 +50,8 @@
     }
 
     box(rect(
-      height: 0.3em, 
-      width: 1.5em, 
+      height: 0.3em,
+      width: 1.5em,
       stroke: strokeColor,
       fill: colour,
       radius: radiusValue
@@ -85,7 +76,8 @@
 #let vantage(
   name: "",
   position: "",
-  links: (),
+  photo: "",
+  contacts: (),
   tagline: [],
   leftSide,
   rightSide
@@ -94,7 +86,7 @@
     title: name + "'s CV",
     author: name,
   )
-  set text(9.8pt, font: "PT Sans")
+  set text(9.8pt, font: "Aptos")
   set page(
     margin: (x: 1.2cm, y: 1.2cm),
   )
@@ -122,17 +114,35 @@
     fill: primary_colour,
     it.body
   )
+  
+  let positionText = text(12pt, weight: "medium", [#position])
 
-  [= #name]
-  text(12pt, weight: "medium",[#position])
+  grid(
+    columns: (1fr, auto),
+    column-gutter: 1em,
+    [
+        = #name\
+        #positionText
+    ],
+    [
+        #if photo != "" {
+            image(
+                photo,
+                width: 2.5cm,
+                height: auto,
+                fit: "cover"
+          )
+        }
+    ]
+    )
 
   v(0pt)
-  findMe(links)
+  findMe(contacts)
 
   tagline
 
   grid(
-    columns: (7fr, 4fr),
+    columns: (4fr, 7fr),
     column-gutter: 2em,
     leftSide,
     rightSide,
