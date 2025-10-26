@@ -1,107 +1,163 @@
-name: "Mykyta S."
+name: "Mykyta Shcherbyna"
 position: "Full-Stack Web Developer"
-photo: "me.jpg"
+photo: "resources/me.jpg"
 
-contacts:
-  location:
-    name: "location"
-    title: "Gdańsk, Poland"
+location:
+    name: "Gdańsk, Poland"
     link: "geo:54.4290151,18.5850776"
 
-tagline: Results-driven Full-Stack Web Developer with 5 years building high-performance, scalable applications using or based on the PHP, JavaScript, Node.js and SQL technologies. Led optimizations that boosted page load speeds by 30-40% and retention via SOLID/DRY principles and MVC architecture. Eager to innovate in collaborative teams, delivering efficient solutions for your projects.
+contacts:
+  - name: "email"
+    title: "n.sherbina1999@gmail.com"
+    link: "mailto:n.sherbina1999+dev@gmail.com"
 
-work_experiences:
-  - position: Full-Stack Web Developer
-    company:
-      name: SDA Company
-    description: 
-        - Refactored and enhanced scalable modular backend systems, built with DDD approach by using PHP, Laravel and Laravel Blade, integrating PHPUnit for robust unit testing to ensure code reliability in compliance with HIPAA and ISO/IEC Standards and applying OOP, SOLID, DRY, and KISS principles to streamline our workflow, speed up development and enhance security for sensitive data handling. Also used Stripe and NMI payment processing API.
-        - Enhanced frontend side with TypeScript (Angular), JavaScript, jQuery, Bootstrap, and SCSS via Laravel Mix, delivering modular user interfaces that improved application responsiveness.
-        - Optimized database performance with MySQL and Memcached, while deploying infrastructure on Amazon Web Services (AWS) and Docker containers, reducing deployment times through BitBucket Pipelines, Git Flow technique and Bash Scripts on Linux-based environment.
-    from: "2025-01"
-    to: "2025-09"
-    location: Remote
-  - position: Backend Developer
-    company:
-      name: Preventa
+  - name: "linkedin"
+    title: "LinkedIn"
+    link: "https://www.linkedin.com/in/mshcherbyna99/"
+
+  - name: "github"
+    title: "GitHub"
+    link: "https://github.com/mshcherbyna99"
+
+summary: "Results-driven Full-Stack Developer, with 5+ years of experience building scalable applications by using PHP (Laravel, Symfony, Yii2, WordPress), JavaScript/TypeScript (Angular, Vue, React, Node.js) and databases (MySQL, MariaDB, PostgreSQL, MongoDB, SQLite). Led application optimizations, that boosted page load speeds by 30-40%, by configuring caching and query optimizations. Applied SOLID and DRY principles within MVC and DDD architectures to ensure maintainable, high-performance codebases. Eager to innovate in collaborative teams, delivering efficient solutions for your projects."
+
+work_experience:
+  - position: "Full-Stack Developer"
+    company_name: "SDA Company"
+    company_location: "Remote"
+    terms:
+      - from: "2025-01"
+      - to: "2025-10"
     description:
-      - Extended core functionality using microservices architecture, PHP and TypeScript with Node.js, and designing RESTful APIs to enable seamless data exchange between Laravel backend and React frontend, adhering to ICD-11 and ISO Standards for medical compliance.
-      - Refactored codebase integrations to resolve backend performance flaws, using Memcached for caching, resulting in 30-40% faster response times than before.
-      - Implemented API queries with caching and mockup testing for partnership integrations.
-    from: "2024-09"
-    to: "2025-01"
-    location: Remote
-  - position: Full-Stack Web Developer
-    company:
-      name: Under NDA
+      - Refactored and enhanced scalable modular backend systems, built with DDD approach by using PHP, Laravel and Docker containerization, with applying OOP, SOLID, DRY and KISS principles. Maintained Stripe and NMI Payment Processing APIs.
+      - Used PHPUnit for robust Unit Testing, to ensure code reliability within HIPAA/ISO-aligned processes and enhance security for sensitive data handling.
+      - Enhanced frontend side with TypeScript (Angular), JavaScript (jQuery) and SCSS/SASS via Laravel Mix with Bootstrap, to deliver modular UI, that improved application responsiveness.
+      - Optimized database performance with utilizing MySQL and Memcached caching strategies, resulting in 30% reduction in query response times.
+      - Utilized BitBucket Pipelines CI/CD with Bash scripts in a Linux-based environment, which automated testing and deployment process on Amazon Web Services (AWS) infrastructure, to minimize errors.
+
+  - position: "Backend Developer"
+    company_name: "Preventa"
+    company_location: "Remote"
+    terms:
+      - from: "2024-09"
+      - to: "2025-01"
     description:
-      - Led optimization of a high-traffic PHP application handling 10+ million media files with ~1.5k online users.
-      - Reduced load times on some pages by 50% through reworked MVC architecture and implementing advanced OOP techniques.
-      - Developed scalable features utilizing SOLID, DRY, KISS principles, using JavaScript, jQuery, Bootstrap for frontend, and PHP, MySQL+Percona and Memcached for backend, while automating media processing via CRON, FFMPEG, and CDN for efficient high-load operations.
-    from: "2022-11"
-    to: "2024-09"
-    location: Remote
-  - position: Full-Stack Web Developer
-    company:
-      name: Webstick
+      - Enhanced a core functionality using PHP (Laravel), TypeScript (React), and PostgreSQL within a modular microservices architecture.
+      - Designed REST APIs to enable seamless data exchange between backend and frontend systems, adhering to ICD-11 and ISO standards for medical compliance.
+      - Maintained and refactored integrations to resolve backend performance bottlenecks by configuring Memcached caching, achieving 30-40% faster response times.
+      - Implemented and tested partner API integrations (e.g., tabletki.ua) with caching and mock testing to ensure reliability and speed.
+
+  - position: "Full-Stack Developer"
+    company_name: "Under NDA"
+    company_location: "Remote"
+    terms:
+      - from: "2022-11"
+      - to: "2024-09"
     description:
-      - Played a key role in developing and deploying multiple high-quality web applications, resulting in increase in client satisfaction scores
-      - Leveraged Laravel and Yii2 frameworks to build robust backend systems, improving system reliability
-      - Implemented modern JavaScript practices with Vue, enhancing the user interface and experience
-      - Managed version control through Git and Subversion (SVN), leading improvement in codebase consistency and project collaboration
-      - Streamlined the development process by using Open Server, reducing testing time and improving overall development efficiency
-    from: "2020-08"
-    to: "2022-11"
-    location: Kryvyi Rih, Ukraine
+      - Rebuilt the architecture of a high-traffic legacy PHP application, which is handling 10+ million media files with ~1.5k online users.
+      - Reduced load times on media listing and upload pages by 50%, by redesigning it using MVC principles and applying OOP, SOLID, KISS, and DRY practices.
+      - Implemented features, by using PHP, MySQL+Percona and Memcached for backend, and JavaScript, jQuery and Bootstrap for frontend, while automating media processing via FFMPEG in CRON. Maintained CDN for efficient high-load operations.
+      - Led the migration of infrastructure between hosting providers.
+      - Reviewed and curated a new developer's Docker containerization tasks, which streamlined our deployment and scaling processes.
+
+  - position: "Full-Stack Developer"
+    company_name: "WebStick"
+    company_location: "Kryvyi Rih, Ukraine"
+    terms:
+      - from: "2020-08"
+      - to: "2022-11"
+    description:
+      - Played a key role in developing and deploying multiple high-quality web applications across different niches, resulting in an increase in client satisfaction scores.
+      - Leveraged the Laravel, Yii2, and Symfony frameworks to build robust backend systems, improving system reliability.
+      - Implemented modern JavaScript practices using Vue.js and jQuery for the frontend, enhancing the user interface and experience.
+      - Managed version control through Git and Subversion (SVN), improving codebase consistency and project collaboration.
+      - Streamlined the development process using a local PHP development stack (Open Server).
 
 education:
-  - institution: " State University of Economics and Technology"
-    location: "Kryvyi Rih, Ukraine"
-    degree: "Master of Science (M.Sc.)"
+  - degree: "Master of Science"
+    facility_name: "State University of Economics and Technology"
+    facility_location: "Kryvyi Rih, Ukraine"
     field_of_study: "Software Engineering"
-    start_date: "2020"
-    end_date: "2021"
-  - institution: "Kryvyi Rih Economical Institute based on Kyiv National Economic University of Vadym Hetman"
-    location: "Kryvyi Rih, Ukraine"
-    degree: "Bachelor of Science (B.Sc.)"
+    terms:
+      - from: "2020-10"
+      - to: "2021-12"
+
+  - degree: "Bachelor of Science"
+    facility_name: "Kryvyi Rih Economical Institute"
+    facility_location: "Kryvyi Rih, Ukraine"
     field_of_study: "Software Engineering"
-    start_date: "2016"
-    end_date: "2020"
+    terms:
+      - from: "2016-09"
+      - to: "2020-07"
+
+certifications:
+    - name: "English - Communicator B2"
+      issuer_name: "ESOL International"
+      description: Listening, Reading, Writing
 
 skills:
   - PHP
-  - JavaScript
-  - TypeScript
-  - MySQL
-  - Node.js
   - Laravel
-  - Yii
+  - Symfony
+  - Yii2
+  - WordPress
+  - JavaScript
+  - jQuery
+  - TypeScript
+  - Node.js
   - Angular
   - Vue.js
   - React
+  - MySQL
+  - MariaDB
+  - PostgreSQL
+  - SQLite
+  - MongoDB
   - Percona
-  - Amazon Web Services (AWS)
+  - Redis
+  - Memcached
+  - CRON
+  - HTML, CSS
+  - SCSS, SASS
+  - Bootstrap
+  - Tailwind CSS
+  - shadcn
+  - Element UI
   - Docker
   - Git
   - Subversion (SVN)
+  - Git Flow
+  - Amazon Web Services (AWS)
+  - CI/CD
+  - PHPUnit
   - CMake
-  - HTML/CSS
-  - SASS
-  - SCSS
-  - Bootstrap
-  - jQuery
+  - BitBucket Pipelines
   - Jenkins
   - GitHub Actions
-  - BitBucket Pipelines
-  - BugSnag
-  - PHPUnit
+  - SOLID
+  - DRY
+  - KISS
   - Python
-  - WordPress
   - Java
-  - OpenAI API
-  - Stripe
-  - Image-gen AI models (Stable Diffusion, Flux.1)
-
-certifications:
-  - name: "ESOL International (Communicator B2)"
-    description: Listening, Reading, Writing
+  - Perl
+  - Lua
+  - C
+  - C++
+  - C#
+  - FFMPEG
+  - BugSnag
+  - Linux
+  - Bash
+  - MVC Architecture
+  - Domain-Driven Design (DDD)
+  - Clean Architecture
+  - Stripe API
+  - NMI Payment API
+  - REST API
+  - RESTful API
+  - OpenAI ChatGPT API
+  - Google Gemini API
+  - Apache
+  - nginx
+  - Typst
+  - ESP32
